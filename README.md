@@ -1,7 +1,11 @@
 #### Development
-- X
+
+• bundle install
+• npm install
+• bower install
+• grunt server
 
 
 #### Tests
 
-- X
+• grunt test
