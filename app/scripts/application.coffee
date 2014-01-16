@@ -1,15 +1,10 @@
 'use strict'
 
-angular.module('echoes', [
-  'ngCookies',
-  'ngResource',
-  'ngSanitize',
-  'ngRoute'
-])
-  .config ($routeProvider) ->
-    $routeProvider
-      .when '/',
-        templateUrl: 'views/main.html'
-        controller: 'MainCtrl'
-      .otherwise
-        redirectTo: '/'
+@app = angular.module('echoes', ['ngResource','ngRoute'])
+
+@app.config ($routeProvider, $locationProvider) ->
+  $locationProvider.html5Mode(true)
+  $routeProvider
+    .when '/:id?',
+      controller: 'EntriesCtrl'
+      templateUrl: 'views/entries.html'

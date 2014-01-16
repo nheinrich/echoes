@@ -1,0 +1,23 @@
+nav
+  +fixed(0, 0, auto, auto)
+
+
+.nav--listing
+  display: inline-block
+  float: right
+  margin-top: 1px
+  background: rgba($dark-gray, 0.3)
+  clear: both
+  +transition(background .3s)
+  a
+    padding: 5px
+    color: rgba($text-white, 0.6)
+    font-size: 12px
+    line-height: 1.5em
+    text-decoration: none
+    +transition(color .3s)
+
+  &:hover, &.active
+    background: rgba($dark-gray, 1)
+    a
+      color: rgba($text-white, 0.85)

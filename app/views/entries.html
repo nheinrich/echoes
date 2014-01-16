@@ -1,0 +1,9 @@
+<entry class='entry--listing' slug="{{entry.slug}}"></entry>
+
+<nav>
+  <div class="nav--listing"
+    ng-class="{active: e == entry}"
+    ng-repeat="e in entries">
+    <a href="#/" ng-click="select(e)">{{e.title}}</a>
+  </div>
+</nav>

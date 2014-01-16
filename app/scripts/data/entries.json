@@ -1,0 +1,55 @@
+[
+  {
+    "id": 1,
+    "date": "2014-01-15",
+    "title": "Antoine de Saint-Exupery",
+    "description": "A designer knows he has achieved perfection not when there is nothing left to add, but when there is nothing left to take away.",
+    "tags": ["quote"],
+    "types": ["quote"],
+    "slug": "t001",
+    "visible": true
+  },
+  {
+    "id": 2,
+    "date": "2014-01-15",
+    "title": "Mike Cina",
+    "description": "I am very thankful to work with the people and clients that I have. Most people want to put you in a box, so when you don’t fit that mold, they don’t know how to use you.",
+    "link": "http://grainedit.com/2013/11/21/mike-cina-interview",
+    "tags": ["quote"],
+    "types": ["quote", "link"],
+    "slug": "t002",
+    "visible": true
+  },
+  {
+    "id": 3,
+    "date": "2014-01-15",
+    "title": "Frank Chimero",
+    "description": "We can rearrange how we think about the tools we build, so that someone putting down your tool doesn’t disprove its utility, but validates its usefulness.",
+    "link": "http://frankchimero.com/what-screens-want",
+    "tags": ["quote"],
+    "types": ["quote", "link"],
+    "slug": "t003",
+    "visible": true
+  },
+  {
+    "id": 4,
+    "date": "2014-01-15",
+    "title": "Nicholas C. Zakas",
+    "description": "Hiring specialists is an especially difficult task for any company that doesn’t have experience with that specialty. The reason is pretty obvious: specialists, by their nature, have expertise in something that is unique. Specialists care about things that other people don’t care about and willfully ignore things that most people do care about. The brain can only handle so much data, so to get a deep understanding of a particular topic it is often necessary to jettison other information that applies more broadly. For instance, there was a point in time where I could do anything in Visual Basic 4.0. These days, I’d be hard-pressed to come up with any working code short of copying it from the Internet. That wasn’t where I decided I wanted to spend my intellectual capital and so I let it fade. \n\n Front-end engineers are, of course, specialists. We care about things that seem insane to others: understanding differences between dozens of browsers, pixels vs. ems, PNG vs. JPEG, compatibility of JavaScript APIs, how to construct a DOM to represent a UI, and so on. When I try to explain something cool I did to a back-end engineer, their eyes tend to glaze over very quickly. They will never understand the rush I get when I test something across Internet Explorer, Firefox, Chrome, and Safari and have it work for the first time. They will never understand why bold looks better than italic in a particular situation. They will never understand how I find bugs in browsers. They don’t have to.",
+    "link": "http://www.nczonline.net/blog/2013/12/27/on-interviewing-front-end-engineers",
+    "tags": ["quote"],
+    "types": ["quote", "link"],
+    "slug": "t004",
+    "visible": true
+  },
+  {
+    "id": 5,
+    "date": "2014-01-15",
+    "title": "Woody Allen or Woody Harrelson?",
+    "description": "Can you guess: Woody Allen or Woody Harrelson?",
+    "tags": ["quote"],
+    "types": ["quote", "link"],
+    "slug": "t005",
+    "visible": true
+  }
+]

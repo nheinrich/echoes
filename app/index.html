@@ -1,9 +1,5 @@
 <!doctype html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-
+<html>
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -26,7 +22,7 @@
     <![endif]-->
 
     <!-- Add your site or application content here -->
-    <div class="container" ng-view=""></div>
+    <div class="content" ng-view></div>
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
      <script>
@@ -34,7 +30,6 @@
        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
        ga('create', 'UA-XXXXX-X');
        ga('send', 'pageview');
     </script>
@@ -56,7 +51,14 @@
 
     <!-- build:js({.tmp,app}) scripts/scripts.js -->
     <script src="scripts/application.js"></script>
-    <script src="scripts/controllers/main.js"></script>
+    <script src="scripts/controllers/entries.js"></script>
+    <script src="scripts/controllers/t001.js"></script>
+    <script src="scripts/controllers/t002.js"></script>
+    <script src="scripts/controllers/t003.js"></script>
+    <script src="scripts/controllers/t004.js"></script>
+    <script src="scripts/controllers/t005.js"></script>
+    <script src="scripts/directives/entry.js"></script>
+    <script src="scripts/services/entries.js"></script>
     <!-- endbuild -->
 
 </body>
