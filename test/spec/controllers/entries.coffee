@@ -1,19 +1,19 @@
 'use strict'
 
-describe 'Controller: MainCtrl', () ->
+describe 'Controller: EntriesCtrl', () ->
 
   # load the controller's module
   beforeEach module 'echoes'
 
-  MainCtrl = {}
+  EntriesCtrl = {}
   scope = {}
 
   # Initialize the controller and a mock scope
   beforeEach inject ($controller, $rootScope) ->
     scope = $rootScope.$new()
-    MainCtrl = $controller 'MainCtrl', {
+    EntriesCtrl = $controller 'EntriesCtrl', {
       $scope: scope
     }
 
-  it 'should attach a list of awesomeThings to the scope', () ->
-    expect(scope.awesomeThings.length).toBe 3
+  it 'should attach a list of entries to the scope', () ->
+    expect(scope.entries).toExist
